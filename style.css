@@ -1,5 +1,5 @@
 /* Google Webフォントを利用設定するCSSをインポート */
-@import url(http://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps);
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 /* body要素(全体) */
 body
@@ -27,7 +27,7 @@ span
     /* 横幅を親要素であるdivの85%にする */
     width: 85%;
     /* フォントの種類を一番上で指定したGoogle Webフォントに設定する */
-    font-family: 'Oleo Script Swash Caps', cursive;
+    font-family: 'Anton', sans-serif;
 }
 
 /* id="clock_date" のspan要素 */
