@@ -10,6 +10,8 @@ body
     background-color: black;
 }
 
+
+
 /* id="clock_frame" のdiv要素 */
 div#clock_frame
 {
@@ -30,11 +32,22 @@ span
     font-family: 'Anton', sans-serif;
 }
 
+/* id="name" のspan要素 */
+span#name
+{
+    /* この要素の中におけるテキストを右詰めにする デフォルト値のtext-align:leftを上書き */
+    text-align: left;
+    /* フォントの大きさを親要素であるdivで設定されたサイズ(px)の0.5倍にする */
+    font-size: 2em;
+    /* 右のパディングの幅を親要素であるdivで設定されたフォントサイズ(px)の0.5倍にする */
+    padding-right: 0.5em;
+}
+
 /* id="clock_date" のspan要素 */
 span#clock_date
 {
     /* この要素の中におけるテキストを右詰めにする デフォルト値のtext-align:leftを上書き */
-    text-align: right;
+    text-align: center;
     /* フォントの大きさを親要素であるdivで設定されたサイズ(px)の0.5倍にする */
     font-size: 0.5em;
     /* 右のパディングの幅を親要素であるdivで設定されたフォントサイズ(px)の0.5倍にする */
