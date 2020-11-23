@@ -30,6 +30,7 @@ span
     width: 85%;
     /* フォントの種類を一番上で指定したGoogle Webフォントに設定する */
     font-family: 'Anton', sans-serif;
+    text-align:right;
 }
 
 /* id="name" のspan要素 */
@@ -45,7 +46,7 @@ span#name
 span#clock_date
 {
     /* この要素の中におけるテキストを右詰めにする デフォルト値のtext-align:leftを上書き */
-    text-align: left;
+    
     /* フォントの大きさを親要素であるdivで設定されたサイズ(px)の0.5倍にする */
     font-size: 0.5em;
     /* 右のパディングの幅を親要素であるdivで設定されたフォントサイズ(px)の0.5倍にする */
